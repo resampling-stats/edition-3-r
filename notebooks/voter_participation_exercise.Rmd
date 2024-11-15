@@ -1,0 +1,13 @@
+# Voter participation in 1844 election
+
+
+Find this notebook on the web at
+<a class="quarto-xref" href="https://resampling-stats.github.io/edition-3-r/correlation_causation.html#nte-voter_participation_exercise">Note <span>29.9</span></a>.
+
+Notebook for voter participation exercise.
+
+```{r}
+voter_df <- read.csv('data/election_1844.csv')
+participation <- voter_df$Participation
+spread <- voter_df$Spread
+```
