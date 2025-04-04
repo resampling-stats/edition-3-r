@@ -1,0 +1,13 @@
+# Exchange rates and money supply
+
+
+Find this notebook on the web at
+<a class="quarto-xref" href="https://resampling-stats.github.io/edition-3-r/correlation_causation.html#nte-exchange_rates_exercise">Note <span>29.11</span></a>.
+
+Notebook for exercise on exchange rates and money supply.
+
+```{r}
+exchange_df <- read.csv('data/exchange_rates.csv')
+exchange_rates <- exchange_df$exchange_rate
+money_supply <- exchange_df$money_supply
+```
