@@ -1,0 +1,17 @@
+# Homeruns and strikeout sum of products.
+
+
+Find this notebook on the web at
+<a class="quarto-xref" href="https://resampling-stats.github.io/edition-3-r/correlation_causation.html#nte-homerun_sop_exercise">Note <span>29.10</span></a>.
+
+Exercise on relationship of home runs and strikeouts, using sum of
+products.
+
+```{r}
+homeruns <- c(14, 20, 0, 38, 9, 38, 22, 31, 33,
+              11, 40, 5, 15, 32, 3, 29, 5, 32)
+strikeout <- c(135, 153, 120, 161, 138, 175, 126, 200, 205,
+               147, 165, 124, 169, 156, 36, 98, 82, 131)
+
+# Exercise - complete this program.
+```

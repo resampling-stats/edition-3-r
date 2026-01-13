@@ -1,0 +1,13 @@
+# Paired differences exercise
+
+
+Find this notebook on the web at
+<a class="quarto-xref" href="https://resampling-stats.github.io/edition-3-r/testing_measured.html#nte-paired_differences">Note <span>24.7</span></a>.
+
+```{r}
+df <- read.csv('data/hamilton.csv')
+before <- df$score_before
+after <- df$score_after
+
+# Your code here.
+```
