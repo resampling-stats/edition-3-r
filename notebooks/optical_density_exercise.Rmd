@@ -1,0 +1,15 @@
+# Optical density exercise
+
+
+Find this notebook on the web at
+<a class="quarto-xref" href="https://resampling-stats.github.io/edition-3-r/confidence_2.html#nte-optical_density_exercise">Note <span>27.3</span></a>.
+
+Suppose we have 10 measurements of Optical Density on a batch of HIV
+negative control samples:
+
+```{r}
+density <- c(.02, .026, .023, .017, .022, .019, .018, .018, .017, .022)
+```
+
+Derive a 95 percent confidence interval for the sample mean. Are there
+enough measurements to produce a satisfactory answer?
